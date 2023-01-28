@@ -1,0 +1,54 @@
+.navbar_header {
+  background: #242424;
+  border-bottom: 0.05rem solid #fff;
+  z-index: 2;
+}
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  background: #fff;
+  width: 2rem;
+  height: 0.05rem;
+  margin-bottom: 0.6rem;
+}
+
+.hamburger span:last-of-type {
+  margin-bottom: 0;
+}
+
+.navbar_menu {
+  /* From https://css.glass */
+  background: rgba(36, 36, 36, 0.9);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  height: calc(100% - 4rem);
+  transition: 0.3s;
+  max-width: 0;
+  width: 100%;
+  overflow: hidden;
+  top: 3.55rem;
+}
+
+.navbar_menu a {
+  color: #fff;
+}
+
+.show_navbar_menu {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar_menu {
+    max-width: initial;
+    width: initial;
+    background: none;
+    background: initial;
+    box-shadow: initial;
+    backdrop-filter: initial;
+    -webkit-backdrop-filter: initial;
+  }
+}
