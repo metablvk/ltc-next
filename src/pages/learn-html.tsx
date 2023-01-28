@@ -142,8 +142,9 @@ const LearnHTML = () => {
                   liking with packages.
                 </p>
                 <p className='mb-4'>
-                  So, after you downloaded a code editor open it up, and let's
-                  write your first html document. If you're using VS code click
+                  So, after you downloaded a code editor open it up, and
+                  let&apos;s write your first html document. If you&apos;re
+                  using VS code click
                   <strong>File</strong>, and then new file which you want to
                   enter index for the name and
                   <strong className='html-logo-color font-bold'>
@@ -167,8 +168,8 @@ const LearnHTML = () => {
                   className='mt-10 mb-4'
                 />
                 <p className='mb-4'>
-                  So, now i'm going to give you a list of elements which you can
-                  play with, or read further about in
+                  So, now i&apos;m going to give you a list of elements which
+                  you can play with, or read further about in
                   <a
                     href='https://www.w3schools.com/tags/default.asp'
                     className='html-logo-color font-bold'
@@ -192,8 +193,8 @@ const LearnHTML = () => {
                   className='mb-4'
                 />
                 <p>
-                  I'll be adding more too this tutorial, and expanding so stay
-                  tuned. Thanks for reading 😊
+                  I&apos;ll be adding more too this tutorial, and expanding so
+                  stay tuned. Thanks for reading 😊
                 </p>
               </div>
             </section>
