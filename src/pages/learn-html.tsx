@@ -131,7 +131,7 @@ const LearnHTML = () => {
                 </h3>
                 <p className='mb-4'>
                   In order to create a html document you require a code editor,
-                  and i recommend something like
+                  and i recommend something like{' '}
                   <a
                     className='html-logo-color font-bold'
                     href='https://code.visualstudio.com/'
@@ -146,14 +146,10 @@ const LearnHTML = () => {
                   let&apos;s write your first html document. If you&apos;re
                   using VS code click
                   <strong>File</strong>, and then new file which you want to
-                  enter index for the name and
-                  <strong className='html-logo-color font-bold'>
-                    .html
-                  </strong>{' '}
-                  for the file extension, or create it with your terminal with
-                  <strong className='html-logo-color font-bold'>
-                    touch
-                  </strong>{' '}
+                  enter index for the name and{' '}
+                  <strong className='html-logo-color font-bold'>.html</strong>{' '}
+                  for the file extension, or create it with your terminal with{' '}
+                  <strong className='html-logo-color font-bold'>touch</strong>{' '}
                   in your preferred directory.
                 </p>
                 <p className='mb-4'>
@@ -169,14 +165,14 @@ const LearnHTML = () => {
                 />
                 <p className='mb-4'>
                   So, now i&apos;m going to give you a list of elements which
-                  you can play with, or read further about in
+                  you can play with, or read further about in{' '}
                   <a
                     href='https://www.w3schools.com/tags/default.asp'
                     className='html-logo-color font-bold'
                   >
                     W3 Schools
                   </a>
-                  , or
+                  , or{' '}
                   <a
                     href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference'
                     className='html-logo-color font-bold'
@@ -186,7 +182,7 @@ const LearnHTML = () => {
                   .
                 </p>
                 <Image
-                  src='/img/html-basic-tags.png'
+                  src='/img/elements.png'
                   alt='basic html tags'
                   width={1360}
                   height={380}
